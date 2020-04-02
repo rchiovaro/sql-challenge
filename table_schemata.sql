@@ -1,6 +1,6 @@
-CREATE TABLE departments (
-	dept_no VARCHAR PRIMARY KEY,
-	dept_name VARCHAR
+CREATE TABLE departments(
+  dept_no VARCHAR PRIMARY KEY,
+  dept_name VARCHAR
 );
 
 CREATE TABLE employees(
@@ -12,7 +12,7 @@ CREATE TABLE employees(
   hire_date DATE
 );
 
-CREATE TABLE dept_emp (
+CREATE TABLE dept_emp(
   emp_no INT ,
   dept_no VARCHAR,
   from_date DATE,
